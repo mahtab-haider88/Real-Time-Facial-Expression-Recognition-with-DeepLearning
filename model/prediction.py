@@ -22,6 +22,7 @@ def main():
         result = model.predict(X)
         print (result)
         return
+        # My 2nd Commit "SH"
     elif args.dataset is not None:
         print ("Directory Prediction Mode")
         X, y = fu.extract_features(args.dataset)
